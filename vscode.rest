@@ -1,0 +1,25 @@
+GET https://fullstackopen-part3-ad9k.onrender.com/api/persons/1
+
+
+HTTP/1.1 200 OK
+Date: Fri, 21 Jun 2024 13:44:09 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 75
+Connection: close
+CF-Ray: 89746e845d282f93-MAD
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+ETag: W/"33-BswVCfKzcoecy1tia/aXZxzA8hU"
+Vary: Accept-Encoding
+rndr-id: 1c375cdf-c3d7-49c1
+x-powered-by: Express
+x-render-origin-server: Render
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+{
+  "id": 1,
+  "name": "Arto Hellas",
+  "number": "040-123456"
+}

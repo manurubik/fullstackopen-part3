@@ -2,7 +2,7 @@
 
 This is the backend for the Phonebook application. The backend is deployed on Render and can be accessed at the following URL:
 
-[Phonebook Backend on Render](https://<your-render-url>.onrender.com)
+[Phonebook Backend on Render](https://fullstackopen-part3-ad9k.onrender.com)
 
 ## API Endpoints
 
@@ -11,9 +11,3 @@ This is the backend for the Phonebook application. The backend is deployed on Re
 - GET `/api/persons/:id` - Retrieve a person by ID
 - DELETE `/api/persons/:id` - Delete a person by ID
 - GET `/info` - Get phonebook info
-
-## How to run locally
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the server: `npm start`
